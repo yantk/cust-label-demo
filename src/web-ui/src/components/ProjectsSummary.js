@@ -59,7 +59,7 @@ export default ({ gateway, onHelp, onVersionClick }) => {
             <Card.Body>
               <Table>
                 <tbody>
-                  {projects[projectName].map((version, index) => (
+                  {projects[projectName].map((version, index) && version.details.Status !== "TRAINING_FAILED" => (
                     <tr key={`v-${index}`}>
                       <td>
                         {version.details.Status === "RUNNING" ? (
