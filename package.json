@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aws-samples/amazon-rekognition-custom-labels-demo.git"
+    "url": "git+https://github.com/yantk/cust-label-demo.git"
   },
   "bugs": {
-    "url": "https://github.com/aws-samples/amazon-rekognition-custom-labels-demo/issues"
+    "url": "https://github.com/yantk/cust-label-demo/issues"
   },
-  "homepage": "https://github.com/aws-samples/amazon-rekognition-custom-labels-demo#readme",
+  "homepage": "https://github.com/yantk/cust-label-demo#readme",
   "devDependencies": {
     "js-yaml": "3.13.1",
     "node-yaml": "4.0.1"
