@@ -28,9 +28,9 @@ export default ({ gateway, onHelp, onVersionClick }) => {
   return (
     <div className="projects tab-content">
       <div className="logo">
-        <img src="/cllogo.png" alt="Amazon Rekognition Custom Labels Logo" />
+        <img src="/cllogo.png" alt="Big Logo" />
       </div>
-      <h2>Amazon Rekognition Custom Labels Demo</h2>
+      <h2>Identify Products in Starbucks Stores</h2>
       <div className="powered">powered by Amazon Rekognition</div>
       {errorDetails && (
         <Alert variant="danger" style={{ marginTop: "30px" }}>
